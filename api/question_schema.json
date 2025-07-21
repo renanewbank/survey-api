@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Question",
+  "type": "object",
+  "properties": {
+    "id":        { "type": "string" },
+    "text":      { "type": "string" },
+    "dimension": { "type": "string" },
+    "published": { "type": "boolean" },
+    "version":   { "type": "integer" },
+    "locked":    { "type": "boolean" }
+  },
+  "required": ["id", "text", "dimension", "published", "version", "locked"]
+}
